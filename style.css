@@ -1,0 +1,80 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cinza claro */
+    color: #333; /* Cinza escuro */
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #4CAF50; /* Verde */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2196F3; /* Azul */
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #FF5733; /* Laranja */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização para o formulário de contato */
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-info a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out; /* Transição suave */
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: inline-block;
+}
+
+p:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho */
+    color: #9C27B0; /* Roxo escuro */
+}

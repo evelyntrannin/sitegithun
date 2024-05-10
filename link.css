@@ -1,0 +1,52 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Cinza claro */
+    color: #333; /* Cinza escuro */
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #33a3ff; /* Laranja */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #4CAF50; /* Verde */
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out; /* Transição suave */
+}
+
+/* Efeito hover nos parágrafos */
+p:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho */
+    color: #9C27B0; /* Roxo escuro */
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: inline-block;
+}
